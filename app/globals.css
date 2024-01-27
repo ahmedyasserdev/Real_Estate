@@ -150,4 +150,8 @@ html {
   .nav_link {
     @apply text-white hover:text-white/75 lg:text-dark medium-32 lg:medium-24   flex-center flex-1 w-full  cursor-pointer max-lg:py-6 transition-all lg:hover:text-grey-700;
   }
+
+  .hero {
+    @apply bg-hero bg-cover bg-no-repeat bg-center rounded-[50px]  h-[633.76px]
+  }
 }
