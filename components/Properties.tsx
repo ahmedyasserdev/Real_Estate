@@ -5,9 +5,12 @@ const Properties = () => {
   return (
     <section className='section__padding' >
         <div className="container">
-            <h2 className="flex-start text-start text-dark bold-38">
-            Recently Added
-            </h2>
+           <div className='flex-between ' >
+             <h2 className=" text-dark bold-38">
+             Recently Added
+             </h2>
+             <span className="text-blue medium-24  ">See all</span>
+           </div>
 
          <div className=' mt-6 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3  gap-4  md:gap-8 lg:gap-10' >
                {

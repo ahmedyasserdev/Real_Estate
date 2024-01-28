@@ -15,9 +15,8 @@ const config: Config = {
           700: "#585981", 
         },
         blue : "#1DAEFF",
-        card : {
+      
           border : '#DCDCEB',
-        }
 
       },
       backgroundImage: {
@@ -26,6 +25,7 @@ const config: Config = {
         spain : "url('/spain.png')",
         london : "url('/london.png')",
         france : "url('/france.png')",
+        contact : "url('/contact.png')"
       },
     },
     screens : {

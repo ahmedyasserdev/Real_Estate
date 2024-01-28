@@ -10,7 +10,7 @@ const Countries = () => {
           well-known countries
         </h2>
 
-        <div className="flex-center md:flex-between flex-wrap mt-10">
+        <div className="flex-center md:flex-between flex-wrap max-lg:gap-5 mt-10">
           {countries.map(({ title, image }, i) => (
             <div key={i} className={`relative country`}>
               <Image

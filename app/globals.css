@@ -99,7 +99,7 @@ html {
 
 @layer components {
   .nav {
-   @apply  flex-between   container py-5 z-30
+   @apply  flex-between   container py-5 z-[9999999]
   }
   .nav_list {
     @apply max-lg:absolute  text-white text-center py-[20px] rounded-lg 
@@ -113,7 +113,7 @@ html {
     @apply bg-hero bg-cover bg-no-repeat bg-center rounded-[50px]  h-[633.76px]
   }
   .card {
-    @apply bg-white border-2 p-4 border-card-border hover:border-blue rounded-[30px] 
+    @apply bg-white border-2 p-4 border-border hover:border-blue rounded-[30px] 
     transition-all duration-200 
   }
   .card_items_wrapper {
@@ -122,10 +122,18 @@ html {
   .card_item {
     @apply medium-18 text-gray-500
   }
+
+
+  .input_field {
+    @apply  rounded-[15px] border-[3px] border-border px-4 py-3   text-dark  w-full
+  }
+
+  .right-arrow {
+    @apply absolute right-[25px] top-1/2  translate-y-[-50%] bg-blue rounded-full p-2 object-contain
+  }
 }
 
 
-/* Countries.module.css */
 .country {
   overflow: hidden;
 }
