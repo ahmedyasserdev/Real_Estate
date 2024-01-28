@@ -14,7 +14,10 @@ const config: Config = {
           500: "#8F90A6", 
           700: "#585981", 
         },
-        blue : "#1DAEFF"
+        blue : "#1DAEFF",
+        card : {
+          border : '#DCDCEB',
+        }
 
       },
       backgroundImage: {
